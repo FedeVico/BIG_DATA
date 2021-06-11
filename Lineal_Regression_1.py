@@ -2,7 +2,7 @@ print(__doc__)
 
 # Code source: Jaques Grobler
 # License: BSD 3 clause
-# Modificado por: Fede
+
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets, linear_model
@@ -33,7 +33,6 @@ diabetes_y_pred = regr.predict(diabetes_X_test)
 
 # Coeficientes
 print('Coeficientes: \n', regr.coef_)
-print('hpla')
 # Error medio al cuadrado
 print('Error medio al cuadrado: %.2f'
       % mean_squared_error(diabetes_y_test, diabetes_y_pred))
